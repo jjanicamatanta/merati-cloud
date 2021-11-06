@@ -34,7 +34,7 @@
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/img/favicon.png">
     <!-- Title -->
-    <title>Arduix - AI & IT Startup HTML Template</title>
+    <title>Merati</title>
 </head>
 
 <body>
