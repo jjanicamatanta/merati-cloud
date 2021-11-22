@@ -53,7 +53,7 @@
 				<!-- Menu For Mobile Device -->
 				<div class="mobile-nav">
 					<a href="index.html" class="logo">
-						<img src="assets/img/white-logo.png" alt="Logo">
+						<img src="assets/img/white-logo.png" style="width:50px" alt="Logo">
 					</a>
 				</div>
 				<!-- Menu For Desktop Device -->
@@ -270,9 +270,10 @@
 						</div>
 					</div>
 					<div class="col-lg-6" style="text-align:left">
-                        <img src="./assets/img/landing-page.png" alt="" style="height: 30rem;
-                            transform: translateY(-5rem);
-                            padding-left: 3rem;">
+                        <img src="./assets/img/landing-page.png" alt="" style="width: 100%;
+                            /* transform: translateY(-5rem);
+                            padding-left: 3rem;" */
+							>
 						{{-- <div class="banner-main-img banner-one-main-img">
 							<img src="assets/img/home-two-banner/banner-two-main-img.png" alt="Image">
 						</div>

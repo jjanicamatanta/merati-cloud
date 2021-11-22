@@ -1525,7 +1525,7 @@
     top: 12px;
   }
   .mean-container .mean-bar {
-    background-color: #04063c;
+    background-color: white;
     -webkit-box-shadow: 0 0 15px #ffffff;
             box-shadow: 0 0 15px #ffffff;
     padding: 0;
@@ -1541,7 +1541,7 @@
     padding: 22px 15px 0 0;
   }
   .mean-container a.meanmenu-reveal span {
-    background-color: #00a7f5;
+    background-color: #0b617e;
     position: relative;
     top: 8px;
     margin-top: -5px;
