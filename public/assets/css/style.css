@@ -123,7 +123,7 @@ button:focus {
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-  color: #0b617e;
+  color: #018675;
   font-family: "Dosis", sans-serif;
   font-weight: 700;
 }
@@ -199,7 +199,7 @@ ul {
   -webkit-box-shadow: unset;
           box-shadow: unset;
   outline: 0;
-  border: 1px solid #0b617e;
+  border: 1px solid #018675;
 }
 
 .form-control:hover:focus, .form-control:focus {
@@ -334,7 +334,7 @@ Go Top Style
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-color: #0b617e;
+  background-color: #018675;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: 0.5s;
@@ -343,7 +343,7 @@ Go Top Style
 
 .go-top:hover {
   color: #ffffff;
-  background-color: #0b617e;
+  background-color: #018675;
 }
 
 .go-top:hover::before {
@@ -402,7 +402,7 @@ Page-navigation Area Style
 }
 
 .page-navigation-area .page-link {
-  color: #0b617e;
+  color: #018675;
   background-color: #ffffff;
   -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
           box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
@@ -424,8 +424,8 @@ Page-navigation Area Style
 
 .page-navigation-area .page-link:hover {
   color: #ffffff;
-  background-color: #0b617e;
-  border: 1px solid #0b617e;
+  background-color: #018675;
+  border: 1px solid #018675;
   -webkit-animation: rubberBand 1s linear;
           animation: rubberBand 1s linear;
 }
@@ -456,8 +456,8 @@ Page-navigation Area Style
 .page-navigation-area .page-item.active .page-link {
   z-index: 1;
   color: #ffffff;
-  background-color: #0b617e;
-  border-color: #0b617e;
+  background-color: #018675;
+  border-color: #018675;
 }
 
 /*
@@ -470,7 +470,7 @@ Video wave Style
   line-height: 69px;
   text-align: center;
   border-radius: 50%;
-  color: #0b617e;
+  color: #018675;
   position: relative;
   top: 3px;
   z-index: 1;
@@ -481,7 +481,7 @@ Video wave Style
   font-size: 30px;
   font-weight: 700;
   padding-left: 4px;
-  color: #0b617e;
+  color: #018675;
   position: relative;
   top: 5px;
   left: 0;
@@ -511,7 +511,7 @@ Video wave Style
 }
 
 .video-btn:hover {
-  background-color: #0b617e;
+  background-color: #018675;
 }
 
 .video-btn:hover i {
@@ -571,7 +571,7 @@ Default Btn Area Style
   position: relative;
   cursor: pointer;
   overflow: hidden;
-  background-color: #0b617e;
+  background-color: #018675;
 }
 
 .default-btn::before {
@@ -606,12 +606,12 @@ Default Btn Area Style
 
 .default-btn.active {
   background-color: #ffffff;
-  color: #0b617e;
+  color: #018675;
 }
 
 .default-btn.active:hover {
   color: #ffffff;
-  background-color: #0b617e;
+  background-color: #018675;
 }
 
 .default-btn:hover {
@@ -656,9 +656,9 @@ Read More Area Style
 }
 
 .read-more:hover {
-  background-color: #0b617e;
+  background-color: #018675;
   color: #ffffff;
-  border-color: #0b617e;
+  border-color: #018675;
 }
 
 /*
@@ -673,7 +673,7 @@ Section Title Area Style
 
 .section-title span {
   font-size: 14px;
-  color: #0b617e;
+  color: #018675;
   display: inline-block;
   margin-bottom: 5px;
 }
@@ -714,7 +714,7 @@ Preloader Area Style
 
 .preloader .lds-ripple div {
   position: absolute;
-  border: 4px solid #0b617e;
+  border: 4px solid #018675;
   opacity: 1;
   border-radius: 50%;
   -webkit-animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
@@ -981,13 +981,13 @@ Nice Select Area Style
 }
 
 .nice-select .option:hover {
-  background-color: #0b617e;
+  background-color: #018675;
   color: #ffffff;
 }
 
 .nice-select .option.selected.focus {
   background-color: #212121;
-  color: #0b617e;
+  color: #018675;
 }
 
 .nice-select .list {
@@ -1003,7 +1003,7 @@ Arduix Nav Area Style
   background-color: transparent;
   padding-top: 10px;
   padding-bottom: 10px;
-  box-shadow: 0px -10px 20px #0b617e;
+  box-shadow: 0px -10px 20px #018675;
 }
 
 .arduix-nav-style .navbar-area .main-nav nav .navbar-nav .nav-item a {
@@ -1029,7 +1029,7 @@ Arduix Nav Area Style
 }
 
 .arduix-nav-style .navbar-area .main-nav nav .navbar-nav .nav-item a.active {
-  color: #0b617e;
+  color: #018675;
   text-shadow: 0px 0px 20px black;
     font-weight: bolder;
 }
@@ -1045,7 +1045,7 @@ Arduix Nav Area Style
 }
 
 .arduix-nav-style .navbar-area .main-nav nav .navbar-nav .nav-item:hover a {
-  color: #0b617e;
+  color: #018675;
 }
 
 .arduix-nav-style .navbar-area .main-nav nav .navbar-nav .nav-item:hover a i {
@@ -1092,7 +1092,7 @@ Arduix Nav Area Style
   left: 0;
   width: 2px;
   height: 100%;
-  background-color: #0b617e;
+  background-color: #018675;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   -webkit-transform: scale(0);
@@ -1100,7 +1100,7 @@ Arduix Nav Area Style
 }
 
 .arduix-nav-style .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover {
-  color: #0b617e;
+  color: #018675;
 }
 
 .arduix-nav-style .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover::before {
@@ -1114,7 +1114,7 @@ Arduix Nav Area Style
 }
 
 .arduix-nav-style .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #0b617e;
+  color: #018675;
 }
 
 .arduix-nav-style .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li a.active::before {
@@ -1133,7 +1133,7 @@ Arduix Nav Area Style
 .arduix-nav-style .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li:hover a i {
   -webkit-transform: rotate(0);
           transform: rotate(0);
-  color: #0b617e;
+  color: #018675;
 }
 
 .arduix-nav-style .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li.active a i {
@@ -1201,11 +1201,11 @@ Arduix Nav Area Style
 }
 
 .arduix-nav-style.wohust-nav-style-two .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover {
-  color: #0b617e;
+  color: #018675;
 }
 
 .arduix-nav-style.wohust-nav-style-two .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #0b617e;
+  color: #018675;
 }
 
 .arduix-nav-style#header {
@@ -1228,7 +1228,7 @@ Arduix Nav Area Style
           box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
   background-color: white !important;
   z-index: 9999;
-  box-shadow: 0px -10px 20px #0b617e;
+  box-shadow: 0px -10px 20px #018675;
 }
 
 /*
@@ -1394,10 +1394,10 @@ Features Area Style
   height: 60px;
   text-align: center;
   position: relative;
-  border: 2px dotted #0b617e;
+  border: 2px dotted #018675;
   border-radius: 50%;
   font-size: 30px;
-  color: #0b617e;
+  color: #018675;
   -webkit-animation: border-transform 7s linear infinite alternate forwards;
           animation: border-transform 7s linear infinite alternate forwards;
   -webkit-transition: all 0.5s;
@@ -1409,7 +1409,7 @@ Features Area Style
   margin-right: auto;
   margin-bottom: 25px;
   display: inline-block;
-  color: #0b617e;
+  color: #018675;
 }
 
 .single-features h3 {
@@ -1449,12 +1449,12 @@ Features Area Style
 }
 
 .single-features:hover i {
-  background-color: #0b617e;
+  background-color: #018675;
   color: #ffffff;
 }
 
 .single-features:hover .read-more-icon span {
-  background-color: #0b617e;
+  background-color: #018675;
   color: #ffffff;
 }
 
@@ -1510,7 +1510,7 @@ About Area Style
 
 .about-content span {
   font-size: 14px;
-  color: #0b617e;
+  color: #018675;
   display: inline-block;
   margin-bottom: 8px;
 }
@@ -1538,7 +1538,7 @@ About Area Style
   position: absolute;
   top: 3px;
   left: 0;
-  color: #0b617e;
+  color: #018675;
   font-size: 14px;
   background-color: #d7eef8;
   width: 25px;
@@ -1572,7 +1572,7 @@ Choose Us Area Style
 
 .choose-title span {
   font-size: 14px;
-  color: #0b617e;
+  color: #018675;
   display: inline-block;
   margin-bottom: 8px;
 }
@@ -1736,7 +1736,7 @@ Offer Area Style
   padding-left: 80px;
   background-color: #ffffff;
   border-radius: 4px;
-  border: 2px dotted #0b617e;
+  border: 2px dotted #018675;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   margin-bottom: 30px;
@@ -1963,7 +1963,7 @@ Industries  Area Style
   position: absolute;
   top: 13px;
   left: 17px;
-  color: #0b617e;
+  color: #018675;
 }
 
 .industries-area .industries-list-tab .tabs li {
@@ -1997,7 +1997,7 @@ Industries  Area Style
   left: 0;
   width: 0;
   height: 100%;
-  background-color: #0b617e;
+  background-color: #018675;
   z-index: -1;
   border-radius: 60px 0 0 60px;
   -webkit-transition: all 0.5s;
@@ -2009,7 +2009,7 @@ Industries  Area Style
   left: 30px;
   top: 32px;
   font-size: 40px;
-  color: #0b617e;
+  color: #018675;
   line-height: 1;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -2091,7 +2091,7 @@ Industries  Area Style
 Client Area Style
 ======================================================*/
 .client-area {
-  background-color: #0b617e;
+  background-color: #018675;
 }
 
 .client-area .section-title h2 {
@@ -2119,7 +2119,7 @@ Client Area Style
   background-color: #ffffff;
   -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
           box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
-  color: #0b617e;
+  color: #018675;
   width: 60px;
   height: 60px;
   line-height: 60px;
@@ -2139,7 +2139,7 @@ Client Area Style
 
 .single-client ul li i {
   font-size: 20px;
-  color: #0b617e;
+  color: #018675;
 }
 
 .single-client::before {
@@ -2176,7 +2176,7 @@ Client Area Style
   font-weight: 600;
   font-size: 13px;
   line-height: 1;
-  color: #0b617e;
+  color: #018675;
 }
 
 /*
@@ -2196,7 +2196,7 @@ News Area Style
   top: 0;
   left: -125px;
   font-size: 18px;
-  background-color: #0b617e;
+  background-color: #018675;
   padding: 5px 10px;
   color: #ffffff;
   -webkit-transition: all 0.5s;
@@ -2225,13 +2225,13 @@ News Area Style
 }
 
 .single-news .news-content-wrap ul li a i {
-  color: #0b617e !important;
+  color: #018675 !important;
   margin-right: 5px;
   display: inline-block;
 }
 
 .single-news .news-content-wrap ul li a:hover {
-  color: #0b617e;
+  color: #018675;
 }
 
 .single-news .news-content-wrap a h3 {
@@ -2249,13 +2249,13 @@ News Area Style
 }
 
 .single-news:hover .news-content-wrap a h3 {
-  color: #0b617e;
+  color: #018675;
 }
 
 .single-news:hover .news-content-wrap .read-more {
-  background-color: #0b617e;
+  background-color: #018675;
   color: #ffffff;
-  border-color: #0b617e;
+  border-color: #018675;
 }
 
 /*
@@ -2342,7 +2342,7 @@ Footer Top Area Style
 }
 
 .single-widget ul li a:hover {
-  color: #0b617e;
+  color: #018675;
   -webkit-transform: translateX(5px);
           transform: translateX(5px);
 }
@@ -2440,7 +2440,7 @@ Footer Top Area Style
 Footer Bottom Area Style
 ======================================================*/
 .footer-bottom-area {
-  background-color: #0b617e;
+  background-color: #018675;
   padding: 15px 0;
 }
 
@@ -2454,7 +2454,7 @@ Footer Bottom Area Style
 }
 
 .footer-bottom-area .copy-right a {
-  color: #0b617e;
+  color: #018675;
 }
 
 .footer-bottom-area .copy-right a:hover {
@@ -2469,13 +2469,13 @@ Footer Bottom Area Style
 .footer-bottom-area .designed i {
   position: relative;
   top: 2px;
-  color: #0b617e;
+  color: #018675;
   -webkit-animation: heartBeat 1000ms infinite linear;
           animation: heartBeat 1000ms infinite linear;
 }
 
 .footer-bottom-area .designed a {
-  color: #0b617e;
+  color: #018675;
 }
 
 .footer-bottom-area .privacy {
@@ -2503,7 +2503,7 @@ Footer Bottom Area Style
 }
 
 .footer-bottom-area .privacy ul li a:hover {
-  color: #0b617e;
+  color: #018675;
 }
 
 .footer-bottom-area .privacy ul li:first-child a::before {
@@ -2637,7 +2637,7 @@ Banner Two Area Style
 Offer Area Two Style
 ======================================================*/
 .offer-area-two .single-offer:hover {
-  background-color: #0b617e;
+  background-color: #018675;
 }
 
 .offer-area-two .single-offer:hover h3 {
@@ -2733,7 +2733,7 @@ Pricing Area Style
   position: absolute;
   top: 5px;
   left: 0;
-  color: #0b617e;
+  color: #018675;
 }
 
 .single-pricing .default-btn {
@@ -2764,7 +2764,7 @@ Pricing Area Style
 .tab.quote-list-tab .tabs {
   border-radius: 10px;
   display: inline-block;
-  border: 1px solid #0b617e;
+  border: 1px solid #018675;
   margin-bottom: 30px;
 }
 
@@ -2778,12 +2778,12 @@ Pricing Area Style
 }
 
 .tab.quote-list-tab .tabs li a {
-  color: #0b617e;
+  color: #018675;
   padding: 10px 20px;
 }
 
 .tab.quote-list-tab .tabs .current {
-  background-color: #0b617e;
+  background-color: #018675;
   border-radius: 10px;
 }
 
@@ -2795,13 +2795,13 @@ Pricing Area Style
 Newsletter Area Style
 ======================================================*/
 .newsletter-area {
-  background-color: #0b617e;
+  background-color: #018675;
   position: relative;
   overflow: hidden;
   z-index: 1;
 }
 a {
-  color: #0b617e;
+  color: #018675;
   /* text-decoration: underline; */
 }
 
@@ -2873,7 +2873,7 @@ a {
 }
 
 .call-us a:hover {
-  color: #0b617e;
+  color: #018675;
 }
 
 /*
@@ -2919,7 +2919,7 @@ Industries Serve Area Style
   left: 0;
   width: 0;
   height: 100%;
-  background-color: #0b617e;
+  background-color: #018675;
   z-index: -1;
   border-radius: 60px 0 0 60px;
   -webkit-transition: all 0.5s;
@@ -2931,7 +2931,7 @@ Industries Serve Area Style
   left: 30px;
   top: 32px;
   font-size: 40px;
-  color: #0b617e;
+  color: #018675;
   line-height: 1;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -3141,7 +3141,7 @@ Case Area Style
 }
 
 .case-area .owl-theme .owl-dots .owl-dot.active span {
-  background: #0b617e;
+  background: #018675;
   width: 25px;
 }
 
@@ -3200,11 +3200,11 @@ Case Area Style
   width: 50px;
   height: 50px;
   line-height: 50px;
-  border: 2px solid #0b617e;
+  border: 2px solid #018675;
   border-radius: 50%;
   text-align: center;
   font-size: 35px;
-  color: #0b617e;
+  color: #018675;
 }
 
 .case-wrap:hover .single-case::before {
@@ -3469,7 +3469,7 @@ Team Area Four Style
 }
 
 .single-team .team-content span {
-  color: #0b617e;
+  color: #018675;
   font-weight: 600;
   margin-bottom: 10px;
   display: block;
@@ -3536,7 +3536,7 @@ Arduix SliderArea Style
 }
 
 .arduix-slider-area .owl-next i {
-  background-color: #0b617e;
+  background-color: #018675;
   color: #ffffff;
   width: 40px;
   height: 40px;
@@ -3549,7 +3549,7 @@ Arduix SliderArea Style
 }
 
 .arduix-slider-area .owl-next i:hover {
-  background-color: #0b617e !important;
+  background-color: #018675 !important;
 }
 
 .arduix-slider-area .owl-prev {
@@ -3566,7 +3566,7 @@ Arduix SliderArea Style
 }
 
 .arduix-slider-area .owl-prev i {
-  background-color: #0b617e !important;
+  background-color: #018675 !important;
   color: #ffffff;
   width: 40px;
   height: 40px;
@@ -3579,7 +3579,7 @@ Arduix SliderArea Style
 }
 
 .arduix-slider-area .owl-prev i:hover {
-  background-color: #0b617e !important;
+  background-color: #018675 !important;
 }
 
 .arduix-slider-area:hover .owl-prev {
@@ -3747,7 +3747,7 @@ Page Title Area Style
   font-weight: 500;
   padding-right: 10px;
   padding-left: 10px;
-  color: #0b617e;
+  color: #018675;
 }
 
 .page-title-area .page-title-content ul li::before {
@@ -3755,7 +3755,7 @@ Page Title Area Style
   position: absolute;
   top: 12px;
   right: -3px;
-  background-color: #0b617e;
+  background-color: #018675;
   width: 5px;
   height: 5px;
   border-radius: 50%;
@@ -3770,7 +3770,7 @@ Page Title Area Style
 }
 
 .page-title-area .page-title-content ul li a:hover {
-  color: #0b617e;
+  color: #018675;
 }
 
 /*
@@ -3942,7 +3942,7 @@ Coming Soon Area Style
 }
 
 .coming-soon-area .coming-soon-content .newsletter-form .input-newsletter:focus {
-  border-color: #0b617e;
+  border-color: #018675;
 }
 
 .coming-soon-area .coming-soon-content .newsletter-form button {
@@ -4023,7 +4023,7 @@ Sign In & Log In  Area Style
 }
 
 .user-area-all-style .contact-form-action .form-heading .reset-desc a {
-  color: #0b617e;
+  color: #018675;
 }
 
 .user-area-all-style .contact-form-action .form-heading .reset-desc {
@@ -4061,7 +4061,7 @@ Sign In & Log In  Area Style
 }
 
 .user-area-all-style .contact-form-action form .col-lg-4:nth-child(3) .default-btn {
-  background-color: #0b617e;
+  background-color: #018675;
   float: right;
 }
 
@@ -4078,7 +4078,7 @@ Sign In & Log In  Area Style
 }
 
 .user-area-all-style .contact-form-action form .form-condition .agree-label a {
-  color: #0b617e;
+  color: #018675;
 }
 
 .user-area-all-style .contact-form-action form .form-group {
@@ -4092,7 +4092,7 @@ Sign In & Log In  Area Style
 }
 
 .user-area-all-style .contact-form-action .account-desc a {
-  color: #0b617e;
+  color: #018675;
   margin-left: 10px;
   font-weight: 600;
 }
@@ -4109,7 +4109,7 @@ Sign In & Log In  Area Style
 
 .user-area-all-style .contact-form-action .forget {
   float: right;
-  color: #0b617e;
+  color: #018675;
   font-weight: 600;
 }
 
@@ -4120,11 +4120,11 @@ Sign In & Log In  Area Style
 }
 
 .user-area-all-style .contact-form-action .now-register a {
-  color: #0b617e;
+  color: #018675;
 }
 
 .user-area-all-style .contact-form-action .now-log-in {
-  color: #0b617e;
+  color: #018675;
   font-weight: 600;
 }
 
@@ -4211,7 +4211,7 @@ Product Area Style
 
 .product-area .woocommerce-topbar .woocommerce-topbar-ordering .nice-select {
   background-color: #ffffff;
-  color: #0b617e;
+  color: #018675;
   border-radius: 0;
   border: none;
   -webkit-box-shadow: 0 0 29px 0 rgba(102, 102, 102, 0.1);
@@ -4243,7 +4243,7 @@ Product Area Style
 }
 
 .product-area .woocommerce-topbar .woocommerce-topbar-ordering .nice-select .list .option:hover {
-  background-color: #0b617e !important;
+  background-color: #018675 !important;
   color: #ffffff;
 }
 
@@ -4300,7 +4300,7 @@ Product Area Style
 }
 
 .product-area .single-product-box .product-image .add-to-cart-btn:hover {
-  background-color: #0b617e;
+  background-color: #018675;
   color: #ffffff;
 }
 
@@ -4308,7 +4308,7 @@ Product Area Style
   position: absolute;
   left: 20px;
   top: 20px;
-  background-color: #0b617e;
+  background-color: #018675;
   color: #ffffff;
   width: 55px;
   height: 55px;
@@ -4348,7 +4348,7 @@ Product Area Style
 
 .product-area .single-product-box .product-content .price .old {
   text-decoration: line-through;
-  color: #0b617e;
+  color: #018675;
   font-size: 14px;
 }
 
@@ -4380,9 +4380,9 @@ Checkout Area Style
   background: #ffffff;
   padding: 18px 20px 15px;
   margin-bottom: 65px;
-  border-top: 3px solid #0b617e;
+  border-top: 3px solid #018675;
   position: relative;
-  color: #0b617e;
+  color: #018675;
 }
 
 .checkout-area .user-actions::before {
@@ -4396,7 +4396,7 @@ Checkout Area Style
 }
 
 .checkout-area .user-actions i {
-  color: #0b617e;
+  color: #018675;
   margin-right: 2px;
   font-size: 20px;
   position: relative;
@@ -4411,16 +4411,16 @@ Checkout Area Style
 
 .checkout-area .user-actions span a {
   display: inline-block;
-  color: #0b617e;
+  color: #018675;
   font-size: 15px;
 }
 
 .checkout-area .user-actions span a:hover {
-  color: #0b617e;
+  color: #018675;
 }
 
 .checkout-area .user-actions span a:focus {
-  color: #0b617e;
+  color: #018675;
 }
 
 .checkout-area .checkout-area .title {
@@ -4479,7 +4479,7 @@ Checkout Area Style
 }
 
 .checkout-area .billing-details .form-group .nice-select .list .option:hover {
-  background-color: #0b617e !important;
+  background-color: #018675 !important;
   color: #ffffff;
 }
 
@@ -4492,7 +4492,7 @@ Checkout Area Style
 }
 
 .checkout-area .billing-details .form-group .nice-select .option:hover, .checkout-area .billing-details .form-group .nice-select .option.focus, .checkout-area .billing-details .form-group .nice-select .option.selected.focus {
-  background-color: #0b617e !important;
+  background-color: #018675 !important;
   color: #ffffff !important;
 }
 
@@ -4605,7 +4605,7 @@ Checkout Area Style
   cursor: pointer;
   display: block;
   font-weight: 600;
-  color: #0b617e;
+  color: #018675;
   position: relative;
   margin-bottom: 8px;
 }
@@ -4626,7 +4626,7 @@ Checkout Area Style
   content: '';
   width: 12px;
   height: 12px;
-  background: #0b617e;
+  background: #018675;
   position: absolute;
   top: 6px;
   left: 3px;
@@ -4669,7 +4669,7 @@ Checkout Area Style
   content: '';
   width: 12px;
   height: 12px;
-  background: #0b617e;
+  background: #018675;
   position: absolute;
   top: 6px;
   left: 3px;
@@ -4791,7 +4791,7 @@ Cart Area Style
 }
 
 .cart-area .cart-table table tbody tr td.product-quantity .input-counter span:hover {
-  color: #0b617e;
+  color: #018675;
 }
 
 .cart-area .cart-table table tbody tr td.product-quantity .input-counter span.minus-btn {
@@ -4997,8 +4997,8 @@ Shop Details Style
 }
 
 .product-details-area .product-details-desc .product-review .rating-count:hover {
-  color: #0b617e;
-  border-color: #0b617e;
+  color: #018675;
+  border-color: #018675;
 }
 
 .product-details-area .product-details-desc .product-add-to-cart {
@@ -5294,8 +5294,8 @@ Shop Details Style
 
 .product-details-area .products-details-tab .tabs li a:hover {
   color: #ffffff;
-  background-color: #0b617e;
-  border-color: #0b617e;
+  background-color: #018675;
+  border-color: #018675;
 }
 
 .product-details-area .products-details-tab .tabs li a:hover .dot {
@@ -5308,8 +5308,8 @@ Shop Details Style
 
 .product-details-area .products-details-tab .tabs li a:focus {
   color: #ffffff;
-  background-color: #0b617e;
-  border-color: #0b617e;
+  background-color: #018675;
+  border-color: #018675;
 }
 
 .product-details-area .products-details-tab .tabs li a:focus .dot {
@@ -5326,8 +5326,8 @@ Shop Details Style
 
 .product-details-area .products-details-tab .tabs li.current a {
   color: #ffffff;
-  background-color: #0b617e;
-  border-color: #0b617e;
+  background-color: #018675;
+  border-color: #018675;
 }
 
 .product-details-area .products-details-tab .tabs li.current a .dot {
@@ -5536,14 +5536,14 @@ Blog Details Area Style
 .news-details-area .blog-details-desc .article-content .entry-meta ul li {
   position: relative;
   display: inline-block;
-  color: #0b617e;
+  color: #018675;
   margin-right: 21px;
   font-size: 14px;
 }
 
 .news-details-area .blog-details-desc .article-content .entry-meta ul li span {
   display: inline-block;
-  color: #0b617e;
+  color: #018675;
   font-weight: 500;
 }
 
@@ -5554,11 +5554,11 @@ Blog Details Area Style
 }
 
 .news-details-area .blog-details-desc .article-content .entry-meta ul li a:hover {
-  color: #0b617e;
+  color: #018675;
 }
 
 .news-details-area .blog-details-desc .article-content .entry-meta ul li i {
-  color: #0b617e;
+  color: #018675;
   margin-right: 2px;
 }
 
@@ -5569,7 +5569,7 @@ Blog Details Area Style
   right: -15px;
   width: 6px;
   height: 1px;
-  background: #0b617e;
+  background: #018675;
 }
 
 .news-details-area .blog-details-desc .article-content .entry-meta ul li:last-child {
@@ -5630,7 +5630,7 @@ Blog Details Area Style
 
 .news-details-area .blog-details-desc .article-footer .article-tags span {
   display: inline-block;
-  color: #0b617e;
+  color: #018675;
   font-size: 20px;
   margin-right: 5px;
   position: relative;
@@ -5644,7 +5644,7 @@ Blog Details Area Style
 }
 
 .news-details-area .blog-details-desc .article-footer .article-tags a:hover {
-  color: #0b617e;
+  color: #018675;
 }
 
 .news-details-area .blog-details-desc .article-footer .article-share {
@@ -5679,7 +5679,7 @@ Blog Details Area Style
   height: 32px;
   line-height: 33px;
   border-radius: 50%;
-  background-color: #0b617e;
+  background-color: #018675;
   text-align: center;
   font-size: 14px;
 }
@@ -5718,7 +5718,7 @@ Blog Details Area Style
 }
 
 .news-details-area blockquote::before {
-  color: #0b617e;
+  color: #018675;
   content: "\ed67";
   position: absolute;
   left: 50px;
@@ -5737,7 +5737,7 @@ Blog Details Area Style
   top: 0;
   bottom: 0;
   width: 3px;
-  background-color: #0b617e;
+  background-color: #018675;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -5793,7 +5793,7 @@ Blog Details Area Style
 }
 
 .news-details-area .post-navigation .navigation-links div a:hover {
-  color: #0b617e;
+  color: #018675;
 }
 
 .news-details-area .comments-area {
@@ -5817,7 +5817,7 @@ Blog Details Area Style
   width: 3px;
   left: -25px;
   position: absolute;
-  background: #0b617e;
+  background: #018675;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -5872,8 +5872,8 @@ Blog Details Area Style
 
 .news-details-area .comments-area .comment-body .reply a:hover {
   color: #ffffff;
-  background-color: #0b617e;
-  border-color: #0b617e;
+  background-color: #018675;
+  border-color: #018675;
 }
 
 .news-details-area .comments-area .comment-meta {
@@ -5919,7 +5919,7 @@ Blog Details Area Style
 }
 
 .news-details-area .comments-area .comment-metadata a:hover {
-  color: #0b617e;
+  color: #018675;
 }
 
 .news-details-area .comments-area .comment-content p {
@@ -5942,7 +5942,7 @@ Blog Details Area Style
   width: 3px;
   left: -25px;
   position: absolute;
-  background: #0b617e;
+  background: #018675;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -5981,7 +5981,7 @@ Blog Details Area Style
 }
 
 .news-details-area .comments-area .comment-respond input[type="datetime-local"]:focus {
-  border-color: #0b617e;
+  border-color: #018675;
 }
 
 .news-details-area .comments-area .comment-respond input[type="week"] {
@@ -5996,7 +5996,7 @@ Blog Details Area Style
 }
 
 .news-details-area .comments-area .comment-respond input[type="week"]:focus {
-  border-color: #0b617e;
+  border-color: #018675;
 }
 
 .news-details-area .comments-area .comment-respond input[type="month"] {
@@ -6011,7 +6011,7 @@ Blog Details Area Style
 }
 
 .news-details-area .comments-area .comment-respond input[type="month"]:focus {
-  border-color: #0b617e;
+  border-color: #018675;
 }
 
 .news-details-area .comments-area .comment-respond input[type="text"] {
@@ -6026,7 +6026,7 @@ Blog Details Area Style
 }
 
 .news-details-area .comments-area .comment-respond input[type="text"]:focus {
-  border-color: #0b617e;
+  border-color: #018675;
 }
 
 .news-details-area .comments-area .comment-respond input[type="email"] {
@@ -6041,7 +6041,7 @@ Blog Details Area Style
 }
 
 .news-details-area .comments-area .comment-respond input[type="email"]:focus {
-  border-color: #0b617e;
+  border-color: #018675;
 }
 
 .news-details-area .comments-area .comment-respond input[type="url"] {
@@ -6056,7 +6056,7 @@ Blog Details Area Style
 }
 
 .news-details-area .comments-area .comment-respond input[type="url"]:focus {
-  border-color: #0b617e;
+  border-color: #018675;
 }
 
 .news-details-area .comments-area .comment-respond input[type="password"] {
@@ -6071,7 +6071,7 @@ Blog Details Area Style
 }
 
 .news-details-area .comments-area .comment-respond input[type="password"]:focus {
-  border-color: #0b617e;
+  border-color: #018675;
 }
 
 .news-details-area .comments-area .comment-respond input[type="search"] {
@@ -6086,7 +6086,7 @@ Blog Details Area Style
 }
 
 .news-details-area .comments-area .comment-respond input[type="search"]:focus {
-  border-color: #0b617e;
+  border-color: #018675;
 }
 
 .news-details-area .comments-area .comment-respond input[type="tel"] {
@@ -6101,7 +6101,7 @@ Blog Details Area Style
 }
 
 .news-details-area .comments-area .comment-respond input[type="tel"]:focus {
-  border-color: #0b617e;
+  border-color: #018675;
 }
 
 .news-details-area .comments-area .comment-respond input[type="number"] {
@@ -6116,7 +6116,7 @@ Blog Details Area Style
 }
 
 .news-details-area .comments-area .comment-respond input[type="number"]:focus {
-  border-color: #0b617e;
+  border-color: #018675;
 }
 
 .news-details-area .comments-area .comment-respond textarea {
@@ -6131,7 +6131,7 @@ Blog Details Area Style
 }
 
 .news-details-area .comments-area .comment-respond textarea:focus {
-  border-color: #0b617e;
+  border-color: #018675;
 }
 
 .news-details-area .comments-area .comment-respond .comment-form-author {
@@ -6181,7 +6181,7 @@ Blog Details Area Style
 }
 
 .news-details-area .comments-area .comment-respond .form-submit input {
-  background: #0b617e;
+  background: #018675;
   border: none;
   color: #ffffff;
   padding: 14px 30px 12px;
@@ -6203,7 +6203,7 @@ Blog Details Area Style
 
 .news-details-area .comments-area .comment-respond .form-submit input:focus {
   color: #ffffff;
-  background-color: #0b617e;
+  background-color: #018675;
 }
 
 .news-details-area .widget-area .widget {
@@ -6239,7 +6239,7 @@ Blog Details Area Style
   left: 0;
   width: 2px;
   height: 100%;
-  background-color: #0b617e;
+  background-color: #018675;
 }
 
 .news-details-area .widget-area .widget_search form {
@@ -6268,7 +6268,7 @@ Blog Details Area Style
 }
 
 .news-details-area .widget-area .widget_search form .search-field:focus {
-  border-color: #0b617e;
+  border-color: #018675;
 }
 
 .news-details-area .widget-area .widget_search form button {
@@ -6280,7 +6280,7 @@ Blog Details Area Style
   width: 50px;
   border: none;
   color: #ffffff;
-  background-color: #0b617e;
+  background-color: #018675;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   cursor: pointer;
@@ -6371,7 +6371,7 @@ Blog Details Area Style
 }
 
 .news-details-area .widget-area .widget-peru-posts-thumb .item .info .title a:hover {
-  color: #0b617e;
+  color: #018675;
 }
 
 .news-details-area .widget-area .widget_recent_entries ul {
@@ -6395,7 +6395,7 @@ Blog Details Area Style
 }
 
 .news-details-area .widget-area .widget_recent_entries ul li::before {
-  background: #0b617e;
+  background: #018675;
   position: absolute;
   height: 7px;
   width: 7px;
@@ -6434,7 +6434,7 @@ Blog Details Area Style
 }
 
 .news-details-area .widget-area .widget_categories ul li::before {
-  background: #0b617e;
+  background: #018675;
   position: absolute;
   height: 10px;
   width: 10px;
@@ -6458,7 +6458,7 @@ Blog Details Area Style
 }
 
 .news-details-area .widget-area .widget_categories ul li a:hover {
-  color: #0b617e;
+  color: #018675;
 }
 
 .news-details-area .widget-area .widget_categories ul li .post-count {
@@ -6487,7 +6487,7 @@ Blog Details Area Style
 }
 
 .news-details-area .widget-area .widget_meta ul li a:hover {
-  color: #0b617e;
+  color: #018675;
 }
 
 .news-details-area .widget-area .widget_meta ul li:last-child {
@@ -6495,7 +6495,7 @@ Blog Details Area Style
 }
 
 .news-details-area .widget-area .widget_meta ul li::before {
-  background: #0b617e;
+  background: #018675;
   position: absolute;
   height: 10px;
   width: 10px;
@@ -6522,14 +6522,14 @@ Blog Details Area Style
 }
 
 .news-details-area .widget-area .tagcloud a:hover {
-  background-color: #0b617e;
+  background-color: #018675;
   color: #ffffff;
 }
 
 .news-details-area .widget-area .tagcloud a:focus {
-  background-color: #0b617e;
+  background-color: #018675;
   color: #ffffff;
-  border-color: #0b617e;
+  border-color: #018675;
 }
 
 .news-details-area .widget-area .widget_services_list ul {
@@ -6577,7 +6577,7 @@ Blog Details Area Style
 }
 
 .news-details-area .widget-area .widget_services_list ul li a:hover {
-  background-color: #0b617e;
+  background-color: #018675;
   color: #ffffff;
   padding-left: 20px;
 }
@@ -6589,7 +6589,7 @@ Blog Details Area Style
 }
 
 .news-details-area .widget-area .widget_services_list ul li a.active {
-  background-color: #0b617e;
+  background-color: #018675;
   color: #ffffff;
   padding-left: 20px;
 }
@@ -6649,7 +6649,7 @@ Blog Details Area Style
 }
 
 .news-details-area .widget-area .widget_download ul li a:hover {
-  background-color: #0b617e;
+  background-color: #018675;
   color: #ffffff;
   padding-left: 20px;
 }
@@ -6661,7 +6661,7 @@ Blog Details Area Style
 }
 
 .news-details-area .widget-area .widget_download ul li a.active {
-  background-color: #0b617e;
+  background-color: #018675;
   color: #ffffff;
   padding-left: 20px;
 }
@@ -6700,7 +6700,7 @@ Contact Info Area Style
 
 .contact-info-area .single-contact-info i {
   display: block;
-  color: #0b617e;
+  color: #018675;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   font-size: 25px;
@@ -6708,7 +6708,7 @@ Contact Info Area Style
   height: 50px;
   margin: 0 auto 15px;
   line-height: 50px;
-  border: 2px dotted #0b617e;
+  border: 2px dotted #018675;
   border-radius: 50%;
 }
 
@@ -6725,7 +6725,7 @@ Contact Info Area Style
 }
 
 .contact-info-area .single-contact-info:hover {
-  background-color: #0b617e;
+  background-color: #018675;
 }
 
 .contact-info-area .single-contact-info:hover i {
@@ -6855,7 +6855,7 @@ Service Details Area Style
   width: 30px;
   height: 30px;
   line-height: 30px;
-  background-color: #0b617e;
+  background-color: #018675;
   border-radius: 50%;
   color: #ffffff;
   font-size: 20px;
@@ -6865,13 +6865,13 @@ Service Details Area Style
 }
 
 .service-sidebar-area .service-list ul li:hover {
-  background-color: #0b617e;
+  background-color: #018675;
   color: #ffffff;
 }
 
 .service-sidebar-area .service-list ul li:hover i {
   background-color: #ffffff;
-  color: #0b617e;
+  color: #018675;
 }
 
 .service-sidebar-area .service-list ul li:hover a {
@@ -6926,7 +6926,7 @@ Service Details Area Style
   width: 25px;
   height: 25px;
   line-height: 25px;
-  background-color: #0b617e;
+  background-color: #018675;
   border-radius: 50%;
   color: #ffffff;
   font-size: 20px;

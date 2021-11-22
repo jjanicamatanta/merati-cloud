@@ -61,7 +61,7 @@
 					<nav class="navbar navbar-expand-md navbar-light">
 						<div class="container">
 							<a class="navbar-brand" href="index.html">
-								<img src="assets/img/white-logo - copia.png" style="position: absolute;height:100%;margin: -35px 60px -35px 0px;" alt="Logo">
+								<img src="{{asset('assets/img/white-logo - copia.png')}}" style="position: absolute;height:100%;margin: -35px 60px -35px 0px;" alt="Logo">
 							</a>
 							<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
 								<ul class="navbar-nav m-auto">
@@ -1252,7 +1252,7 @@
 					<div class="col-lg-3 col-md-6">
 						<div class="single-widget">
 							<a href="index.html">
-								<img src="assets/img/white-logo - copia.png" alt="Image">
+								<img src="{{asset('assets/img/white-logo - copia.png')}}" alt="Image">
 							</a>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat molestiae corporis, magni maxime perferendis ducimus totam officiis sit exercitationem sed odio debitis minus cumque dolores dicta. Vitae.</p>
 							<ul class="social-icon">
