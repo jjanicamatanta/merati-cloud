@@ -31,9 +31,9 @@
 		<link rel="stylesheet" href="assets/css/responsive.css">
 		
 		<!-- Favicon -->
-		<link rel="icon" type="image/png" href="assets/img/favicon.png">
+		<link rel="icon" type="image/png" href="{{asset('assets/img/white-logo.png')}}">
         <!-- Title -->
-        <title>Arduix - AI & IT Startup HTML Template</title>
+        <title>MeratiCloud - Desarrollo de Soluciones Tecnológicas</title>
     </head>
 
     <body>
