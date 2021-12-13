@@ -33,7 +33,7 @@
 		<!-- Favicon -->
 		<link rel="icon" type="image/png" href="{{asset('assets/img/white-logo.png')}}">
         <!-- Title -->
-        <title>MeratiCloud - Desarrollo de Soluciones Tecnológicas</title>
+        <title>Hola Mundo | MeratiCloud </title>
     </head>
 
     <body>
@@ -41,8 +41,13 @@
 		<!-- Start Preloader Area -->
 		<div class="preloader">
 			<div class="lds-ripple">
-				<div></div>
-				<div></div>
+				<img src="assets/img/white-logo.png" style="width:50px" alt="Logo">
+				{{-- <div>
+					<img src="assets/img/white-logo.png" style="width:50px" alt="Logo">
+				</div>
+				<div>
+					<img src="assets/img/white-logo.png" style="width:50px" alt="Logo">
+				</div> --}}
 			</div>
 		</div>
 		<!-- End Preloader Area -->
@@ -237,7 +242,7 @@
 								</ul>
 								<!-- Start Other Option -->
 								<div class="others-option">
-									<a class="default-btn" href="#">
+									<a class="default-btn" href="https://api.whatsapp.com/send?phone=51915131033&text=Hola%2C%20estoy%20interesado%20en%20..." target="_blank" title="Contacta con MeratiCloud">
 										Contacto
 										<i class="bx bx-log-in-circle"></i>
 									</a>
@@ -255,22 +260,22 @@
 		<section class="main-banner-area main-banner-area-two">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-lg-6">
+					<div class="col-lg-6 align-middle justify-content-center align-self-center">
 						<div class="banner-text">
 							<h1>DESAROLLO DE SOLUCIONES TECNOLÓGICAS</h1>
 							<p>Nuestro objetivo es servir a la sociedad creando <br> productos y servicios de calidad.</p>	
 							<div class="banner-btn">
-								<a class="default-btn" href="#">
+								<a class="default-btn" href="#services">
 									Nuestros Servicios
 								</a>
-								<a class="default-btn" href="#">
+								<a class="default-btn" href="https://api.whatsapp.com/send?phone=51915131033&text=Hola%2C%20estoy%20interesado%20en%20..." target="_blank">
                                     Contáctanos
 								</a>
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-6" style="text-align:left">
-                        <img src="./assets/img/landing-page.png" alt="" style="width: 100%;
+					<div class="col-lg-6 text-center" style="text-align:left">
+                        <img src="./assets/img/landing-page.png" alt="" style="width: 80%;
                             /* transform: translateY(-5rem);
                             padding-left: 3rem;" */
 							>
@@ -309,40 +314,51 @@
 		<!-- End Main Banner Area --> 
 
 		<!-- Start features Area -->
-		<section class="features-area mt-minus-70 pb-70">
+		<section class="features-area mt-minus-70 pb-70" id="que-ofrecemos">
 			<div class="container">
 				<div class="row">
-                    <div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0 p-0">
+                    <div class="col-lg-3 col-sm-6 offset-sm-3 offset-lg-0 p-0">
 						<div class="single-features">
 							<i class="flaticon-success"></i>
-							<h3>Enfrentando desafíos de IA</h3>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt magnam exercitationem suscipit sapiente, praesentium sunt voluptatem</p>
+							<h3>Enfrentando desafíos de Machine Learning</h3>
+							<p>Nuestros productos y servicios están orientados a la captura de datos para personalizar la experiencia de su cliente.</p>
 							<a class="read-more-icon" href="services-details.html">
 								<span class="flaticon-right-arrow"></span>
 							</a>
 						</div>
 					</div>
-					<div class="col-lg-4 col-sm-6 p-0">
+					<div class="col-lg-3 col-sm-6 p-0">
 						<div class="single-features">
                             <i class="flaticon-engineer"></i>
-							<h3>Software Profesional</h3>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt magnam exercitationem suscipit sapiente, praesentium sunt voluptatem</p>
+							<h3>Productos TI</h3>
+							<p>Ofrecemos un amplio catálogo de productos TI. Contamos con herramientas de gestión de la información, logística, CRMs, POS, ERP, etc.							</p>
 							<a class="read-more-icon" href="services-details.html">
                                 <span class="flaticon-right-arrow"></span>
 							</a>
 						</div>
 					</div>
-					<div class="col-lg-4 col-sm-6 p-0">
+					<div class="col-lg-3 col-sm-6 p-0">
                         <div class="single-features">
                             <i class="flaticon-cloud-computing-1"></i>
 							<h3>Servicios Cloud</h3>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt magnam exercitationem suscipit sapiente, praesentium sunt voluptatem</p>
+							<p>
+								Desarrollamos soluciones a medida para la nube, ofreciendo 100% de garantía de poder usar y consultar su app en cualquier momento y lugar, y desde cualquier dispositivo.
+							</p>
 							<a class="read-more-icon" href="services-details.html">
 								<span class="flaticon-right-arrow"></span>
 							</a>
 						</div>
 					</div>
-					
+					<div class="col-lg-3 col-sm-6 p-0">
+                        <div class="single-features">
+                            <i class="flaticon-cloud-computing-1"></i>
+							<h3>Fábrica de Software</h3>
+							<p>Acompañamos y aplicamos las mejores prácticas e integramos distintas técnicas ágiles para el desarrollo a medida de soluciones de software según tus necesidades.</p>
+							<a class="read-more-icon" href="services-details.html">
+								<span class="flaticon-right-arrow"></span>
+							</a>
+						</div>
+					</div>
                     
 				</div>
                 
@@ -351,7 +367,7 @@
 		<!-- End features Area -->
 
 		<!-- Start About Area -->
-		<section class="about-area pb-100">
+		<section class="about-area pb-100" id="acerca-merati">
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-lg-6">
@@ -362,8 +378,10 @@
 					<div class="col-lg-6">
 						<div class="about-content">
 							<span>Merati Cloud</span>
-							<h2>Completamos cada proyecto segpun las necesidades del nuestros clientes</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel Lorem ipsum dolor sit amet, consectetur.</p>
+							<h2>Completamos cada proyecto según las necesidades del nuestros clientes</h2>
+							<p>
+								Desarrollamos su app con adaptación perfecta a su negocio preparandola para el análisis de datos.
+							</p>
 							
 							<div class="row">
 								<div class="col-lg-6 col-sm-6">
@@ -374,7 +392,7 @@
 										</li>
 										<li>
 											<i class="flaticon-checked"></i>
-											Alta optimización de la web
+											Alta optimización de la app o web
 										</li>
 										<li>
 											<i class="flaticon-checked"></i>
@@ -386,7 +404,7 @@
 									<ul>
 										<li>
 											<i class="flaticon-checked"></i>
-											Garantía
+											Garantía sin vencimiento
 										</li>
 										<li>
 											<i class="flaticon-checked"></i>
@@ -399,9 +417,9 @@
 									</ul>
 								</div>
 							</div>
-							<a class="default-btn" href="about-style-two.html">
+							{{-- <a class="default-btn" href="about-style-two.html">
 								Learn More
-							</a>
+							</a> --}}
 						</div>
 					</div>
 				</div>
@@ -410,54 +428,58 @@
 		<!-- End About Area -->
 
 		<!-- Start What We Offer Area -->
-		<section class="offer-area offer-area-two pt-100 pb-70">
+		<section class="offer-area offer-area-two pt-100 pb-70" id="services">
 			<div class="container">
 				<div class="section-title">
 					<span>Servicios</span>
 					<h2>Nuestros Servicios Profesionales para ti</h2>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure architecto quaerat eaque sapiente accusantium ad ut explicabo consequuntur fuga quidem? Sint.</p>
+					<p>
+						Desarollamos todo tipo de apps y webs: Blog, E-commerce, Logística, etc. Siempre considerando la mejor experiencia de usuario.
+					</p>
 				</div>
 				<div class="row">
 					<div class="col-lg-4 col-sm-6">
 						<div class="single-offer">
 							<i class="flaticon-chip"></i>
 							<h3>Fábrica de Software</h3>
-							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo expedita soluta dolorum sit aliquam, tempore</p>
+							<p>Acompañamos y aplicamos las mejores prácticas e integramos distintas técnicas ágiles para el desarrollo.</p>
 						</div>
 					</div>
 					<div class="col-lg-4 col-sm-6">
 						<div class="single-offer">
 							<i class="flaticon-vr"></i>
 							<h3>Tiendas E-commerce</h3>
-							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo expedita soluta dolorum sit aliquam, tempore</p>
+							<p>
+								Diseño 100% personalizado y registrando toda interacción de sus clientes con su app.
+							</p>
 						</div>
 					</div>
 					<div class="col-lg-4 col-sm-6">
 						<div class="single-offer">
 							<i class="flaticon-blockchain"></i>
-							<h3>Software de puntos de venta</h3>
-							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo expedita soluta dolorum sit aliquam, tempore</p>
+							<h3>Puntos de venta</h3>
+							<p>Módulo diseñado para cubrir las funciones principales de su nuevo local o punto de venta. </p>
 						</div>
 					</div>
 					<div class="col-lg-4 col-sm-6">
 						<div class="single-offer">
 							<i class="flaticon-target"></i>
 							<h3>Contabilidad</h3>
-							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo expedita soluta dolorum sit aliquam, tempore</p>
+							<p>Automatización de los procesos contables, incluyendo reportes y dasboards personalizados</p>
 						</div>
 					</div>
                     <div class="col-lg-4 col-sm-6">
 						<div class="single-offer">
 							<i class="flaticon-deep-learning"></i>
 							<h3>Inventario</h3>
-							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo expedita soluta dolorum sit aliquam, tempore</p>
+							<p>Módulo para gestiiones ingreso y salida de sus productos, incluyendo reportes y dashboards</p>
 						</div>
 					</div>
 					<div class="col-lg-4 col-sm-6">
 						<div class="single-offer">
 							<i class="flaticon-choice"></i>
-							<h3>y más..</h3>
-							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo expedita soluta dolorum sit aliquam, tempore</p>
+							<h3>Mucho más..</h3>
+							<p>Realizamos todo tipo de apps y webs para que su negocio compita en el mundo moderno.</p>
 						</div>
 					</div>
 					
@@ -742,7 +764,7 @@
 		<!-- End Pricing Area -->
 
 		<!-- Start Newsletter Area -->
-		<section class="newsletter-area ptb-100">
+		{{-- <section class="newsletter-area ptb-100">
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-lg-5">
@@ -766,8 +788,8 @@
 					</div>
 					<div class="col-lg-5">
 						<div class="call-us">
-							<h2>Contactanos por Whatsapp</h2>
-							<a href="tel:+882-569-756">+51 915131033</a>
+							<h2>Contáctanos por Whatsapp</h2>
+							<a href="https://api.whatsapp.com/send?phone=51915131033&text=Hola%2C%20estoy%20interesado%20en%20..." target="_blank">+51 915131033</a>
 						</div>
 					</div>
 				</div>
@@ -777,11 +799,11 @@
 				<img src="assets/img/shape/newsletter-shape-one.png" alt="Image">
 				<img src="assets/img/shape/newsletter-shape-two.png" alt="Image">
 			</div>
-		</section>
+		</section> --}}
 		<!-- End Newsletter Area -->
 
 		<!-- End Case Area -->
-		<section class="case-area case-area-five pb-100 pt-100">
+		{{-- <section class="case-area case-area-five pb-100 pt-100">
 			<div class="container">
 				<div class="section-title">
 					<span>Nuestros proyectos</span>
@@ -836,11 +858,11 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> --}}
 		<!-- End Case Area -->
 
 		<!-- Start Client Area -->
-		<section class="client-area ptb-100">
+		<section class="client-area ptb-100" id="testimonios">
 			<div class="container">
 				<div class="section-title">
 					<span>Testimonios</span>
@@ -849,8 +871,8 @@
 				<div class="client-wrap owl-carousel owl-theme">
 					<div class="single-client">
 						<i class="quotes flaticon-left-quotes-sign"></i>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium qui nam tenetur ab temporibus harum dolorum a quaerat error repellendus</p>
-						<ul>
+						<p>José notó rápidamente las ineficiencias en la comunicacíon de nuestros equipo con otras áreas y desarolló un proceso que nos ahorró varias horas de documentación diaria.</p>
+						{{-- <ul>
 							<li>
 								<i class="bx bxs-star"></i>
 							</li>
@@ -866,17 +888,19 @@
 							<li>
 								<i class="bx bxs-star"></i>
 							</li>
-						</ul>
+						</ul> --}}
 						<div class="client-img">
 							<img src="assets/img/client/1.jpg" alt="Image">
-							<h3>Alen Meair</h3>
-							<span>Developer</span>
+							<h3>Paulino Montalvo</h3>
+							<span class="text-white">Gerente de Pantoja</span>
 						</div>
 					</div>
 					<div class="single-client">
 						<i class="quotes flaticon-left-quotes-sign"></i>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium qui nam tenetur ab temporibus harum dolorum a quaerat error repellendus</p>
-						<ul>
+						<p>Nos ha inspirado confianza absoluta y se basan en los resultados que brindan.</p>
+						<br>
+						<br>
+						{{-- <ul>
 							<li>
 								<i class="bx bxs-star"></i>
 							</li>
@@ -892,17 +916,21 @@
 							<li>
 								<i class="bx bxs-star"></i>
 							</li>
-						</ul>
+						</ul> --}}
 						<div class="client-img">
 							<img src="assets/img/client/2.jpg" alt="Image">
-							<h3>Axon Detos</h3>
-							<span>CEO</span>
+							<h3>Yonatan Humaní</h3>
+							<span class="text-white">Gerente de RRHH de Equipo G SAC</span>
 						</div>
 					</div>
 					<div class="single-client">
 						<i class="quotes flaticon-left-quotes-sign"></i>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium qui nam tenetur ab temporibus harum dolorum a quaerat error repellendus</p>
-						<ul>
+						<p>
+							Siempre que consultamos con su equipo nos da la tranquilidad que necesito para dirigir mi esfuerzo neto a mi empresa.
+						</p>
+						<br>
+						
+						{{-- <ul>
 							<li>
 								<i class="bx bxs-star"></i>
 							</li>
@@ -918,14 +946,14 @@
 							<li>
 								<i class="bx bxs-star"></i>
 							</li>
-						</ul>
+						</ul> --}}
 						<div class="client-img">
 							<img src="assets/img/client/3.jpg" alt="Image">
-							<h3>John Dona</h3>
-							<span>Designer</span>
+							<h3>Melany Rodriguez Borja</h3>
+							<span class="text-white">Admin. Negocios Internaciones</span>
 						</div>
 					</div>
-					<div class="single-client">
+					{{-- <div class="single-client">
 						<i class="quotes flaticon-left-quotes-sign"></i>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium qui nam tenetur ab temporibus harum dolorum a quaerat error repellendus</p>
 						<ul>
@@ -950,19 +978,21 @@
 							<h3>Jon Smith</h3>
 							<span>Developer</span>
 						</div>
-					</div>
+					</div> --}}
 				</div>
 			</div>
 		</section>
 		<!-- End Client Area -->
 
 		<!-- Start Industries Serve Area -->
-		<section class="industries-serve-area pt-100">
+		<section class="industries-serve-area pt-100" id="industrias">
 			<div class="container">
 				<div class="section-title">
 					<span>Lo que ofrecemos</span>
 					<h2>Industrias a las que servimos</h2>
-					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates magni fugit, quod iure quibusdam, omnis nisi cum, nostrum nulla deleniti mollitia tenetur.</p>
+					<p>
+						Desarollamos apps y webs para todos los rubros 100% adaptable. Algunas de las últimas industrias a las que servimos son:
+					</p>
 				</div>
 				<div class="row align-items-center">
 					<div class="col-lg-4">
@@ -1197,7 +1227,7 @@
 		<!-- End News Area -->
 
 		<!-- Start Brand Area -->
-		<div class="brand-area pb-70">
+		{{-- <div class="brand-area pb-70">
 			<div class="container">
 				<div class="brand-list">
 					<div class="single-brand">
@@ -1242,26 +1272,30 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> --}}
 		<!-- End Brand Area -->
 
 		<!-- Start Footer Top Area -->
 		<footer class="footer-top-area pt-100 pb-70">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-3 col-md-6">
-						<div class="single-widget">
-							<a href="index.html">
-								<img src="{{asset('assets/img/white-logo - copia.png')}}" alt="Image">
+					<div class="col-lg-4 col-md-6">
+						<div class="single-widget" style="">
+							<a href="index.html" style="background: white;
+							padding: 5px;
+							margin-bottom: 10px;
+							border-radius: 10px;
+							width: 80%;">
+								<img src="{{asset('assets/img/white-logo - copia.png')}}" alt="Image" class="mb-0">
 							</a>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat molestiae corporis, magni maxime perferendis ducimus totam officiis sit exercitationem sed odio debitis minus cumque dolores dicta. Vitae.</p>
+							<p>Desarollamos la app ideal para tu negocio para el mundo moderno.</p>
 							<ul class="social-icon">
 								<li>
-									<a href="#">
+									<a href="https://www.facebook.com/MeratiCloud" target="_blank">
 										<i class="bx bxl-facebook"></i>
 									</a>
 								</li>
-								<li>
+								{{-- <li>
 									<a href="#">
 										<i class="bx bxl-twitter"></i>
 									</a>
@@ -1270,64 +1304,59 @@
 									<a href="#">
 										<i class="bx bxl-pinterest-alt"></i>
 									</a>
-								</li>
+								</li> --}}
 								<li>
 									<a href="#">
 										<i class="bx bxl-linkedin"></i>
 									</a>
 								</li>
-								<li>
+								{{-- <li>
 									<a href="#">
 										<i class="bx bxl-youtube"></i>
 									</a>
-								</li>
+								</li> --}}
 							</ul>
 						</div>
 					</div>
-					<div class="col-lg-3 col-md-6">
+					<div class="col-lg-4 col-md-6">
 						<div class="single-widget">
-							<h3>Services</h3>
+							<h3>Links importantes</h3>
 							<ul>
 								<li>
-									<a href="#">
+									<a href="#que-ofrecemos">
 										<i class="right-icon bx bx-chevrons-right"></i>
-										Big Data
+										¿Qué ofrecemos?
 									</a>
 								</li>
 								<li>
-									<a href="#">
+									<a href="#acerca-merati">
 										<i class="right-icon bx bx-chevrons-right"></i>
-										UI/UX Design
+										Acerca de nosotros
 									</a>
 								</li>
 								<li>
-									<a href="#">
+									<a href="#services">
 										<i class="right-icon bx bx-chevrons-right"></i>
-										Desktop Application
+										Nuestros servicios
 									</a>
 								</li>
 								<li>
-									<a href="#">
+									<a href="#services">
 										<i class="right-icon bx bx-chevrons-right"></i>
-										Mobile Application
+										Testimonios
 									</a>
 								</li>
 								<li>
-									<a href="#">
+									<a href="#services">
 										<i class="right-icon bx bx-chevrons-right"></i>
-										Product Engineering
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<i class="right-icon bx bx-chevrons-right"></i>
-										Machine Learning
+										Servimos a todas las industrias
 									</a>
 								</li>
 							</ul>
+							 
 						</div>
 					</div>
-					<div class="col-lg-3 col-md-6">
+					{{-- <div class="col-lg-3 col-md-6">
 						<div class="single-widget">
 							<h3>Important Links</h3>
 							<ul>
@@ -1369,29 +1398,29 @@
 								</li>
 							</ul>
 						</div>
-					</div>
-					<div class="col-lg-3 col-md-6">
+					</div> --}}
+					<div class="col-lg-4 col-md-6">
 						<div class="single-widget">
-							<h3>Information</h3>
+							<h3>Información</h3>
 							<ul class="information">
 								<li class="address">
 									<i class="flaticon-call"></i>
-									<span>Phone</span>
+									<span>Teléfono</span>
 									<a href="tel:+882-569-756">
-										+882-569-756
+										+915-131-033
 									</a>
 								</li>
 								<li class="address">
 									<i class="flaticon-envelope"></i>
 									<span>Email</span>
 									<a href="mailto:hello@arduix.com">
-										hello@arduix.com
+										contacto@merati.cloud
 									</a>
 								</li>
 								<li class="address">
 									<i class="flaticon-maps-and-flags"></i>
-									<span>Address</span>
-									123, Western Road, Melbourne Australia
+									<span>Dirección</span>
+									En la nube
 								</li>
 							</ul>
 						</div>
@@ -1412,8 +1441,7 @@
 					<div class="col-lg-4">
 						<div class="copy-right">
 							<p>
-								Copyright <i class="bx bx-copyright"></i>2021 Arduix. Designed By
-								<a href="https://envytheme.com/">EnvyTheme</a>
+								Copyright <i class="bx bx-copyright"></i>2021 MeratiCloud
 							</p>
 						</div>
 					</div>
@@ -1421,19 +1449,19 @@
 						<div class="privacy">
 							<ul>
 								<li>
-									<a href="terms-conditions.html">Terms & Conditions</a>
+									<a href="terms-conditions.html">Términos y Condiciones</a>
 								</li>
 								<li>
-									<a href="privacy-policy.html">Privacy Policy</a>
+									<a href="privacy-policy.html">Políticas de Privacidad</a>
 								</li>
 							</ul>
 						</div>
 					</div>
-					<div class="col-lg-4">
+					{{-- <div class="col-lg-4">
 						<div class="designed">
 							<p>Designed By <i class='bx bx-heart'></i> <a href="https://envytheme.com/" target="_blank">EnvyTheme</a></p>
 						</div>
-					</div>
+					</div> --}}
 				</div>
 			</div>
 		</footer>
